@@ -14,16 +14,15 @@
 
 void PWM_Init(void){
     RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2,ENABLE);
-    TIM_InternalClockConfig(TIM2);
-
-    RCC_APB1PeriphClockCmd(RCC_APB2Periph_GPIOA,ENABLE);
-
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA,ENABLE);    
+    
     GPIO_InitTypeDef GPIO_InitStructure;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
     GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0;
     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
     GPIO_Init(GPIOA,&GPIO_InitStructure);
 
+    TIM_InternalClockConfig(TIM2);
     TIM_TimeBaseInitTypeDef TimeBase_InitStructure;
     TimeBase_InitStructure.TIM_ClockDivision = TIM_CKD_DIV1;
     TimeBase_InitStructure.TIM_CounterMode = TIM_CounterMode_Up;

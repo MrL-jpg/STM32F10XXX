@@ -3,10 +3,10 @@
         {
             "name": "Target 1",
             "includePath": [
-                "c:\\Users\\Eureka\\Desktop\\Stm32Project\\001GPIO输出\\StartupFile",
-                "c:\\Users\\Eureka\\Desktop\\Stm32Project\\001GPIO输出\\Library",
-                "c:\\Users\\Eureka\\Desktop\\Stm32Project\\001GPIO输出\\Public",
-                "c:\\Users\\Eureka\\Desktop\\Stm32Project\\001GPIO输出\\System",
+                "d:\\Git_Library\\STM32F10XXX\\001GPIO输出\\StartupFile",
+                "d:\\Git_Library\\STM32F10XXX\\001GPIO输出\\Library",
+                "d:\\Git_Library\\STM32F10XXX\\001GPIO输出\\Public",
+                "d:\\Git_Library\\STM32F10XXX\\001GPIO输出\\System",
                 "E:\\Keil5\\ARM\\ARMCC\\include",
                 "E:\\Keil5\\ARM\\ARMCC\\include\\rw"
             ],

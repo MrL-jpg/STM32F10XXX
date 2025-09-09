@@ -2,6 +2,6 @@
 #define __INPUTCAMPTURE_H
 
 void IC_Init(void);
-uint16_t IC_GeiFreq(void);
+uint16_t IC_GetFreq(void);
 
 #endif /* __INPUTCAMPTURE_H */
